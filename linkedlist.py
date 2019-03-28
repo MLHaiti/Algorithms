@@ -48,25 +48,8 @@ class LinkedList(object):
             currentNode.nextNode = None
             self.size -= 1
 
-
-
     def traverseList(self):
         actualNode = self.head
         while actualNode is not None:
             print("{}".format(actualNode.data))
             actualNode = actualNode.nextNode
-
-
-
-linkedlist = LinkedList()
-linkedlist.insertStart(5)
-linkedlist.insertStart(4)
-linkedlist.insertStart(3)
-linkedlist.insertStart(2)
-linkedlist.insertStart(1)
-linkedlist.traverseList()
-print("size ",linkedlist._size())
-linkedlist.remove(1)
-print("[*]\n[*]\n[*]")
-linkedlist.traverseList()
-print("size ", linkedlist._size())
