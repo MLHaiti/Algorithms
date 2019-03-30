@@ -7,10 +7,10 @@ class Queue:
     def isEmpty(self):
         return self.queue == []
 
-    def enqueue(self, data):
+    def enQueue(self, data):
         self.queue.append(data)
 
-    def dequeue(self):
+    def deQueue(self):
         data = self.queue[0]
         del self.queue
         return data
@@ -22,7 +22,7 @@ class Queue:
         return len(self.queue)
 
 queue = Queue()
-queue.enqueue(20)
-queue.enqueue(11)
-queue.enqueue(60)
+queue.enQueue(20)
+queue.enQueue(11)
+queue.enQueue(60)
 print(queue.sizeQueue())
