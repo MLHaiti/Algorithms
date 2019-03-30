@@ -16,6 +16,8 @@ class BinarySearchTree:
         else:
             self.insertNode(data, self.root)
 
+    # O(logN) if the trees is balanced
+    # It can reduces to O(N) --> AVL RBT are needed
     def insertNode(self, data, node):
         if data < node.data:
             if node.leftChild:
