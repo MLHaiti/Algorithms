@@ -22,3 +22,8 @@ class BinarySearchTree:
                 self.insertNode(data, node.leftChild)
             else:
                 node.leftChild = Node(data)
+        else:
+            if node.rightChild:
+                self.insertNode(data, node.rightChild)
+            else:
+                node.rightChild = Node(data)
