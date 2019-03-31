@@ -20,9 +20,3 @@ class Queue:
 
     def sizeQueue(self):
         return len(self.queue)
-
-queue = Queue()
-queue.enQueue(20)
-queue.enQueue(11)
-queue.enQueue(60)
-print(queue.sizeQueue())
