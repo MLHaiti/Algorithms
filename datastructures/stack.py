@@ -18,12 +18,3 @@ class Stack:
 
     def sizeStack(self):
         return len(self.stack)
-
-stack = Stack()
-stack.push(12)
-stack.push(22)
-stack.push(35)
-print(stack.sizeStack())
-print("popped:" , stack.pop())
-print("popped:" , stack.pop())
-print(stack.sizeStack())
