@@ -48,7 +48,7 @@ class LinkedList(object):
             currentNode.nextNode = None
             self.size -= 1
 
-    def traverseList(self):
+    def traverse(self):
         actualNode = self.head
         while actualNode is not None:
             print("{}".format(actualNode.data))
