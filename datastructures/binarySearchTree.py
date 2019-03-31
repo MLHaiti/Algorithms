@@ -103,12 +103,3 @@ class BinarySearchTree:
 
         if node.rightChild:
             self.traverseInOrder(node.rightChild)
-
-bst = BinarySearchTree()
-bst.insert(10)
-bst.insert(5)
-bst.insert(15)
-bst.insert(6)
-bst.traverse()
-bst.remove(15)
-bst.traverse()
