@@ -1,4 +1,5 @@
 # Algorithms and Datastructures in Python
+These are algorithms and data structures that I have been implemented in python for purpose of learning
 
 ## Data structures
 
@@ -18,4 +19,4 @@
 
 ### Ternary Search Tree
 
-### Graph
+## Graph
