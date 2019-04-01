@@ -7,12 +7,12 @@ class Queue:
     def isEmpty(self):
         return self.queue == []
 
-    def enQueue(self, data):
+    def enqueue(self, data):
         self.queue.append(data)
 
-    def deQueue(self):
+    def dequeue(self):
         data = self.queue[0]
-        del self.queue
+        del self.queue[0]
         return data
 
     def peek(self):
